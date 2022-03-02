@@ -341,7 +341,7 @@ export default e => {
           
             if (targetApp) {
               const localPlayer = useLocalPlayer();
-              const damage = 2;
+              const damage = 20;
 
               const hitPosition = new THREE.Vector3().fromArray(result.point);
               const hitQuaternion = new THREE.Quaternion().setFromRotationMatrix(
